@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+}
+header{
+	background-color: black;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+header h1{
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+header img{
+
+	border-radius: 170px;
+	border: 10px solid white;
+} 
