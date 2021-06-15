@@ -1,5 +1,9 @@
 body{
 	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 25px;
+	font-size: 16px;
+
 }
 header{
 	background-color: black;
@@ -7,10 +11,11 @@ header{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-header h1{
+header h1, h2{
 	color: white;
-	font-family: sans-serif;
+	font-family: Cabin, sans-serif;
 	text-transform: uppercase;
+	letter-spacing: 5px;
 	font-weight: lighter;
 }
 
@@ -19,3 +24,52 @@ header img{
 	border-radius: 170px;
 	border: 10px solid white;
 } 
+
+h2{
+	color: black;
+	font-family: Cabin, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: lighter;
+	margin-top: 30px;
+
+}
+
+main{
+
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: Playfair Display, serif;
+	padding: 10px 20px 20px 20px;
+
+}
+
+main img{
+	max-width: 100%;
+}
+
+a{
+	color: darkorchid;
+
+}
+
+a:hover{
+	color: lavender;
+	background-color: black;
+}
+
+footer{
+
+		background-color: black;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+p.caption{
+	color: dimgray;
+	font-style: italic;
+	font-size: 12px;
+	margin-top: 0;
+}
