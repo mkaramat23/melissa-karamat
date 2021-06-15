@@ -5,6 +5,8 @@ body{
 	font-size: 16px;
 
 }
+
+/* header style */
 header{
 	background-color: black;
 	text-align: center;
@@ -35,6 +37,7 @@ h2{
 
 }
 
+/* main styles */
 main{
 
 	max-width: 800px;
@@ -46,8 +49,17 @@ main{
 
 main img{
 	max-width: 100%;
+
 }
 
+p.caption{
+	color: dimgray;
+	font-style: italic;
+	font-size: 12px;
+	margin-top: 0;
+}
+
+/* link styles */
 a{
 	color: darkorchid;
 
@@ -59,6 +71,7 @@ a:hover{
 	opacity: 75%;
 }
 
+/* footer styles */
 footer{
 
 		background-color: black;
@@ -70,11 +83,4 @@ footer{
 
 footer a:hover{
 	background-color: transparent;
-}
-
-p.caption{
-	color: dimgray;
-	font-style: italic;
-	font-size: 12px;
-	margin-top: 0;
 }
